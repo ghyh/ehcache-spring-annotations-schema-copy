@@ -36,7 +36,8 @@
         <xsd:attribute name="cache-manager" type="xsd:string" default="cacheManager">
             <xsd:annotation>
                 <xsd:documentation source="java:net.sf.ehcache.CacheManager"><![CDATA[The bean name of the CacheManager that is to be used to drive caching.This attribute is not required, and only needs to be specified
-explicitly if the bean name of the desired CacheManager is not 'cacheManager'.]]></xsd:documentation>
+explicitly if the bean name of the desired CacheManager is not 'cacheManager'.]]>
+                </xsd:documentation>
                 <xsd:appinfo>
                     <tool:annotation kind="ref">
                         <tool:expected-type type="net.sf.ehcache.CacheManager"/>
